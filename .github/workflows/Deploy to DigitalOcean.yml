@@ -21,4 +21,3 @@ jobs:
           key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
           source: "./"
           target: "/var/www/html"
-          port: 22  # Default SSH port; ensure your droplet is listening on this port
