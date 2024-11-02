@@ -21,3 +21,4 @@ jobs:
           key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
           source: "./"
           target: "/var/www/html"
+          ssh_args: "-o StrictHostKeyChecking=no"
