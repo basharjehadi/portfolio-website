@@ -16,7 +16,7 @@ jobs:
       - name: Deploy files to DigitalOcean
         uses: appleboy/scp-action@v0.1.1
         with:
-          host: your_droplet_ip
+          host: 104.248.38.196
           username: root
           key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
           source: "./"
